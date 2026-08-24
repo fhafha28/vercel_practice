@@ -128,7 +128,7 @@ export default function AdminPage() {
         <StatCard title="한 번 이상 클릭된 URL 수" value={summary.clickedUrls} />
         <StatCard
           title="가장 많이 클릭된 URL"
-          value={topUrl ? topUrl.shortCode : "-"}
+          value={topUrl ? `/${topUrl.shortCode}` : "-"}
           detail={topUrl ? `${topUrl.clickCount}회 클릭` : "아직 클릭 기록이 없습니다."}
         />
       </section>
