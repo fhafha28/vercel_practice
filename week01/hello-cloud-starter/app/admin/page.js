@@ -20,6 +20,7 @@ function StatCard({ title, value, detail }) {
         background: "white",
       }}
     >
+    sadfasdfasdfasdf
       <div style={{ fontSize: 14, color: "#666", marginBottom: 8 }}>
         {title}
       </div>
